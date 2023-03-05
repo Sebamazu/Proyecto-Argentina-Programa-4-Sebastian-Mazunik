@@ -36,24 +36,35 @@
                 <div class="col-xs-12 col-sm-2 col-ms-2 col-lg-2">
                     <img src="Images/perfil.jpg" alt="perfil" id="fotodeperfil">
                 </div>
-                <div class="col-xs-12 col-sm-4 col-ms-4 col-lg-4" id="nombre">
-                    <h1>Sebastian Mazunik</h1>
-                    <button>Ver mas</button>
-                    <p>Estudiante de programacion en Argentina Programa</p>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-ms-6 col-lg-6" id="acerca-de">
-                    <h2>Acerca de mi</h2>
-                    <p>Soy un joven de 29 en búsqueda laboral, me consideró proactivo y responsable, me gusta mucho el trabajo en equipo y los buenos ambientes laborales.
-                        Con respecto a mi desempeño laboral soy muy eficaz en cuanto a cualquier puesto de trabajo para el que sea designado, tengo una gran adaptabilidad y aprendo rápido con mucha predisposición.
-                        En cuanto al trato con los clientes la amabilidad y el respeto son siempre las características en las cuales me bazo.</p>
+                <div class="col-xs-12 col-sm-8 col-ms-8 col-lg-8" id="nombre">
+                    <button id="boton-nombre" type="button" class="btn btn-secondary btn-lg btn-block">Sebastian Mazunik</button>
+                    <div id="contacto">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-4 col-ms-4 col-lg-4" id="izquierda">
+                                <h3>Estudiante de programacion en Argentina Programa</h3>
+                                <li>
+                                    Telefono: xxxx+xxxxxx
+                                </li>
+                                <li>
+                                    Mail: mazunikseba@gmail.com
+                                </li>
+                            </div>
+                            <div class="col-xs-12 col-sm-5 col-ms-5 col-lg-5" id="derecha">
+                                <h2>Acerca de mi</h2>
+                                <p>Soy un joven de 29 años en búsqueda laboral, me consideró proactivo y responsable, me gusta mucho el trabajo en equipo y los buenos ambientes laborales.
+                                    Con respecto a mi desempeño laboral soy muy eficaz en cuanto a cualquier puesto de trabajo para el que sea designado, tengo una gran adaptabilidad y aprendo rápido con mucha predisposición.
+                                    En cuanto al trato con los clientes la amabilidad y el respeto son siempre las características en las cuales me baso.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>     
-        <div class="exp-edu text-center">
-            <h2>Experiencias</h2>
+        <div class="exp-edu">
+            <button id="botonexpe" type="button" class="btn btn-secondary btn-lg btn-block"><h2 class="tituloexpe">Experiencias</h2></button>
             <div class="row">
             <div class="col-xs-12 col-sm-5 col-ms-5 col-lg-5" id="laboral">
-                <h2>Experiencia laboral</h2>
+                <h3>Experiencia laboral</h3>
                 <li>
                     <p>Servicio de Reparacion de PC - 2012-2023</p>
                 </li>
@@ -62,13 +73,13 @@
                 </li>
             </div>
             <div class="col-xs-12 col-sm-5 col-ms-5 col-lg-5" id="educacion">
-                <h2>Educacion</h2>
+                <h3>Educacion</h3>
                 <li>
                     <h5>Unidad educativa El Sembrador</h5>
                     <p>Egresado en 2011</p>
                 </li>
                 <li>
-                    <h5>Instituto AES - Tecnico en raparacion de PC</h5>
+                    <h5>Instituto AES - Tecnico en reparacion de PC</h5>
                     <p>Año 2012 - Año 2013</p>
                 </li>
             </div>
@@ -104,16 +115,16 @@
             </div>
         </div>
         <div class="proyecto">
-            <h1 class="titulo">Proyectos Realizados</h1>
+            <h2 class="titulo">Proyectos Realizados</h2>
             <div class="row">
                 <div class="col-sm-12 col-md-7 col-lg-7">
                     <h3 class="nombreproyecto">Proyecto Argentina Programa</h3>
                     
-                    <p class="nombreproyecto2">* Proyecto final de Argentina Programa</p>
+                    <li class="nombreproyecto2">Proyecto final de Argentina Programa 2023</li>
                     
                 </div>
                 <div class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1">
-                    <img src="Images/proyecto.jpg" class="img-fluid" alt="fotoproyecto">
+                    <img src="Images/proyecto.jpg" class="ex2 img-fluid" alt="fotoproyecto">
                 </div>
             </div>
         </div>        
@@ -124,5 +135,30 @@
             <p>Cordoba, Argentina</p>
         </div>
     </footer>
+    <script src="js/funcion.js"></script>
 </body>
 </html>
+
+
+<!-- 
+<div class="col-xs-12 col-sm-4 col-ms-4 col-lg-4" id="nombre">
+                    <button id="boton-nombre" type="button" class="btn btn-secondary btn-lg btn-block">Sebastian Mazunik</button>
+                    <div class="col-xs-12 col-sm-8 col-ms-8 col-lg-8" id="contacto">
+                        <p>Estudiante de programacion en Argentina Programa</p>
+                        <li>
+                            Telefono:
+                        </li>
+                        <li>
+                            Mail:
+                        </li>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-ms-6 col-lg-6" id="acerca-de">
+                    <h2>Acerca de mi</h2>
+                    <p>Soy un joven de 29 años en búsqueda laboral, me consideró proactivo y responsable, me gusta mucho el trabajo en equipo y los buenos ambientes laborales.
+                        Con respecto a mi desempeño laboral soy muy eficaz en cuanto a cualquier puesto de trabajo para el que sea designado, tengo una gran adaptabilidad y aprendo rápido con mucha predisposición.
+                        En cuanto al trato con los clientes la amabilidad y el respeto son siempre las características en las cuales me baso.</p>
+                </div>
+
+
+-->

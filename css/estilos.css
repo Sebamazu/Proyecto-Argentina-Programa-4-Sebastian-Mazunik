@@ -11,6 +11,9 @@
 .logo img{
     width: 200px;
 }
+.redes{
+    margin: 2%;
+}
 .redes img{
     margin: 0.2em;
     width: 70px;
@@ -18,6 +21,11 @@
 @media (max-width: 575px){
     .container{
         flex-direction: column;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .redes{
         display: flex;
@@ -62,54 +70,123 @@
         top: 800px;
     }
 }
-.nombre{
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    color: black;
-    margin: 5px;
-    border: 5px;
-    padding: 10px;
-    margin-top: 5%;
-}
-.nombre p{
-    font-size: 15px;
-    text-align: center;
-    color: black;
-    margin: 5px;
-    border: 5px;
-    padding: 10px;
-}
-.acerca-de{
-    margin: 5px;
-    border: 5px;
-    padding: 10px;
+#nombre{
     font-weight: bold;
     text-align: center;
     color: black;
+}
+#izquierda h3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25%;
+    color: black;
+    margin-top: 2%;
+}
+#izquierda li{
+    color: black;
+    font-size: 150%;
+    text-align: left;
+    margin-top: 15%;
+}
+#boton-nombre{
+    width: 60%;
+    background-color: #024e4d;
+    color: white;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    font-weight: bold;
+    font-size: 250%;
+}
+#boton-nombre:hover{
+    background: #05b3b0;
+    color: black;
+    font-weight: bold;
+}
+#contacto{
+    border: 1px solid black;
+    box-shadow: -10px 10px 30px black;
+    background-color: #05b3b0;
+    display: none;
+    height: 90%;
+}
+#contacto:hover{
+    transform: scale(1.5);
+    transition-duration: 1.5s;
+}
+#derecha{
+    margin-top: 2%;
+    margin-left: 18%;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+#derecha p{
+    text-align: center;
+    font-size: 120%;
 }
 .exp-edu{
     margin: 5px;
     border: 5px;
     padding: 10px;
     font-weight: bold;
-    color: black;
     margin-top: 1%;
     margin-left: 12%;
+}
+#botonexpe{
+    width: 88%;
+    background-color: #024e4d;
+    margin-bottom: 1%;
+    margin-top: 2%;
+    margin-left: 1%;
+}
+#botonexpe:hover{
+    background: #05b3b0;
+}
+.tituloexpe{
+    text-align: center;
+}
+.tituloexpe:hover{
+    color: black;
 }
 #laboral{
     padding-left: 5%;
     width: 45%;
     border: 1px solid black;
+    box-shadow: -10px 10px 30px black;
+    display: none;
+    background-color: #05b3b0;
 }
 #educacion{
     padding-right: 5%;
     width: 45%;
     border: 1px solid black;
+    box-shadow: 10px 10px 30px black;
+    display: none;
+    background-color: #05b3b0;
+}
+#laboral:hover{
+    transform: scale(1.3);
+    transition-duration: 1.5s;
+    background-color: #024e4d;
+    color: white;
+}
+#educacion:hover{
+    transform: scale(1.3);
+    transition-duration: 1.5s;
+    background-color: #024e4d;
+    color: white;
 }
 .titulohys{
     text-align: center;
-    margin-top: 2px;
+    margin-top: 35px;
+    border: 1px solid black;
+    box-shadow: -10px 10px 30px black;
+    background-color: #024e4d;
+    color: white;
+    margin-left: 11%;
+    margin-right: 8%;
+    margin-bottom: 4%;
 }
 #hys{
     margin-left: 15%;
@@ -158,26 +235,46 @@
 }
 .titulo{
     text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+    box-shadow: -10px 10px 30px black;
+    background-color: #024e4d;
+    height: 100%;
+    margin-left: 11%;
+    margin-right: 8%;
+    margin-bottom: 4%;
 }
 .proyecto{
-    width: auto;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    box-shadow: -10px 10px 30px black;
+    background-color: #05b3b0;
 }
 .nombreproyecto{
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 5%;
     text-align: left;
     color: black;
     font-weight: bold;
 }
 .nombreproyecto2{
-    margin-left: 15%;
+    margin-left: 22%;
     margin-top: 5%;
     text-align: left;
     color: black;
     font-weight: bold;
 }
 .img-fluid{
+    margin-bottom: 8%;
     box-shadow: 10px 10px 30px black;
+}
+.img-fluid:hover{
+    transform: scale(1.3);
+    transition-duration: 1.5s;
 }
 .footer{
     background-color: black;
