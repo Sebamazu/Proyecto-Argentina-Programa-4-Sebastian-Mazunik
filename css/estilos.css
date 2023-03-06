@@ -83,6 +83,15 @@
     color: black;
     margin-top: 2%;
 }
+#izquierda h5{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 25%;
+    color: black;
+    margin-top: 2%;
+}
 #izquierda li{
     color: black;
     font-size: 150%;
@@ -112,9 +121,9 @@
 }
 #contacto:hover{
     transform: scale(1.5);
-    transition-duration: 1.5s;
 }
 #derecha{
+    text-decoration: underline;
     margin-top: 2%;
     margin-left: 18%;
     font-weight: bold;
@@ -255,6 +264,7 @@
     background-color: #05b3b0;
 }
 .nombreproyecto{
+    text-decoration: underline;
     margin-left: 20%;
     margin-top: 5%;
     text-align: left;
