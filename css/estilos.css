@@ -48,6 +48,7 @@ html{
     }
     .redes img{
         margin: 0.2em;
+        flex-direction: row;
     }
 }
 @media (max-width: 1536px){
